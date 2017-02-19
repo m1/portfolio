@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "key-spacing": 0,
+    "no-multi-spaces": [
+      0,
+      {
+        "exceptions": {
+          "VariableDeclarator": true
+        }
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [
+    "html",
+    "vue"
+  ]
+}

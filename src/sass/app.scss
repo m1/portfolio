@@ -1,0 +1,74 @@
+@import '_reset.scss';
+@import 'sass-material-colors';
+
+body {
+  color: material-color('grey', '900');
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1600px;
+}
+
+.subcontainer {
+  max-width: 350px;
+  padding: 30px;
+  width: 50%;
+
+  @media only screen and (max-width : 800px) {
+    max-width: none;
+    width: auto;
+  }
+
+  &--left {
+    float: left;
+
+    @media only screen and (max-width : 800px) {
+      .subcontainer__block:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &--right {
+    float: left;
+    .subcontainer__block:first-child .block {
+      padding-top: 19px;
+    }
+
+    @media only screen and (max-width : 800px) {
+      padding-top: 0;
+    }
+  }
+
+  &__block {
+    padding-bottom: 30px;
+
+  }
+}
+
+.block {
+  display: block;
+
+  &--header {
+    padding-bottom: 15px;
+  }
+}
+
+.num {
+  color: material-color('grey', '400');
+  margin-right: 5px;
+}
+
+a, a:visited {
+  color: material-color('grey', '900');
+}
+
+::selection {
+  background: material-color('yellow', '400');
+}
+::-moz-selection {
+  background: material-color('yellow', '400');
+}
