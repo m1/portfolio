@@ -7,7 +7,7 @@
       </div>
 
       <div class="subcontainer__block">
-        <p> I'm Miles Croxford a Senior full stack developer, 25 year old with over 6 years experience developing web
+        <p> I'm Miles Croxford, a Senior full stack developer, 25 years old with over 6 years experience developing web
           applications.
           Worked with startups and agencies in London, now living in Brighton working with <a
               href="https://www.hare.digital/">Hare</a> tackling big data problems, working
